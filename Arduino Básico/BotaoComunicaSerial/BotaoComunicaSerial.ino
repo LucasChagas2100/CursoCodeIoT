@@ -3,7 +3,7 @@ Se o botão estiver apertado, o monitor serial imprimirá 1.
 Senão, ele imprimirá 0.
 */
 
-const int botao = 2;         // pino no qual o botao está conectado
+const int botao = 53;         // pino no qual o botao está conectado
 int estadoBotao = 0;         // variável para guardar o valor do estado do botão (pressionado ou não)      
 
 void setup() {               // configuração inicial
